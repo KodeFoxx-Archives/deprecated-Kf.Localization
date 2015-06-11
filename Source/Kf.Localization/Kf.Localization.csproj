@@ -40,7 +40,9 @@
     <Compile Include="Exceptions\LocalizationException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\ICultureAwareResourceProvider.cs" />
+    <Compile Include="Providers\ICultureAwareStringProvider.cs" />
     <Compile Include="Providers\IResourceProvider.cs" />
+    <Compile Include="Providers\IStringProvider.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
