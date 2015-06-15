@@ -47,3 +47,5 @@ namespace TestingKfLocalizationResx
     }
 }
 ```
+
+![.resx file(s) itself](http://oi60.tinypic.com/1z1r901.jpg)
