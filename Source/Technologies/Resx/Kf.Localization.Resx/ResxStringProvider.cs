@@ -25,7 +25,7 @@ namespace Kf.Localization.Resx
         /// <param name="name">The name of the resource.</param>
         /// <returns>The resource.</returns>
         protected override string GetResource(string name) {
-            return ResourceManager.GetString(name);
+            return ResourceManager.GetString(name, Culture);
         }
     }
 }

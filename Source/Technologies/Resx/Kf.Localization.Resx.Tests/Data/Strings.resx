@@ -117,7 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="IAmTheKey" xml:space="preserve">
-    <value>YouAreTheSecret</value>
+  <data name="IVeGotTheKey" xml:space="preserve">
+    <value>I've got the secret. I've got the key to another way. Ah ah ah ah ah ah, aha ah</value>
   </data>
 </root>

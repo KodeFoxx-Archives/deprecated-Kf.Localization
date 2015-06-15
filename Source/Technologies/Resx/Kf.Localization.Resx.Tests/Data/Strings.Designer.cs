@@ -61,11 +61,11 @@ namespace Kf.Localization.Resx.Tests.Data {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to YouAreTheSecret.
+        ///   Looks up a localized string similar to I&apos;ve got the secret. I&apos;ve got the key to another way. Ah ah ah ah ah ah, aha ah.
         /// </summary>
-        internal static string IAmTheKey {
+        internal static string IVeGotTheKey {
             get {
-                return ResourceManager.GetString("IAmTheKey", resourceCulture);
+                return ResourceManager.GetString("IVeGotTheKey", resourceCulture);
             }
         }
     }

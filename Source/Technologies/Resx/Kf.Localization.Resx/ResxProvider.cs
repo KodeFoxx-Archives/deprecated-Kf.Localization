@@ -44,7 +44,7 @@ namespace Kf.Localization.Resx
             _resourceManager = resourceManager;
             Culture = culture == null
                 ? CultureInfo.CurrentUICulture
-                : culture;
+                : culture;            
         }
 
         /// <summary>
