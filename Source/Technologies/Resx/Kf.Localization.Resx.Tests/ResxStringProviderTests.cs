@@ -9,7 +9,13 @@ namespace Kf.Localization.Resx.Tests
         [Fact]
         public void HasCurrentUICultureWhenNullIsPassed() {
             ResxProvider<string> sut = new ResxStringProvider(Strings.ResourceManager, null);
-            Assert.Equal(CultureInfo.CurrentCulture, sut.Culture);
+            Assert.Equal(CultureInfo.CurrentUICulture, sut.Culture);
+        }
+
+        [Fact]
+        public void HasCurrentUICultureWheCultureInfoIsPassed() {
+            ResxProvider<string> sut = new ResxStringProvider(Strings.ResourceManager, new CultureInfo("nl-BE"));
+            Assert.Equal(new CultureInfo("nl-BE"), sut.Culture);
         }
     }
 }
