@@ -37,7 +37,7 @@ namespace Kf.Localization.Resx
         /// <param name="resourceManager">The resource manager to use.</param>
         /// <param name="culture">The culture to use.</param>
         public ResxProvider(ResourceManager resourceManager, CultureInfo culture = null) {
-            if (_resourceManager == null) {
+            if (resourceManager == null) {
                 throw new ArgumentNullException(nameof(resourceManager));
             }
 
