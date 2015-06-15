@@ -58,7 +58,7 @@ namespace Kf.Localization.Resx
             try {
                 return GetResource(name);
             } catch (Exception ex) {
-                var getResourceExceptionMessage = $"Exception '{FormatWith(ex.ToFriendlyNameOfType()}' occurred while trying to get resource with name '{name}'.";                    
+                var getResourceExceptionMessage = $"Exception '{ex.ToFriendlyNameOfType()}' occurred while trying to get resource with name '{name}'.";                    
                 var getResourceException = new LocalizationException(getResourceExceptionMessage, ex);                
 
                 if (defaultValueProvider == null && throwOnException) {

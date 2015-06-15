@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resx", "Resx", "{CBAFBE23-1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kf.Localization.Resx", "Technologies\Resx\Kf.Localization.Resx\Kf.Localization.Resx.csproj", "{5086614C-6ECA-4033-AFE3-1797948753E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kf.Localization.Resx.Tests", "Technologies\Resx\Kf.Localization.Resx.Tests\Kf.Localization.Resx.Tests.csproj", "{AFCC0724-B5D8-4565-B28B-1636AF69A006}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{5086614C-6ECA-4033-AFE3-1797948753E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5086614C-6ECA-4033-AFE3-1797948753E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5086614C-6ECA-4033-AFE3-1797948753E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFCC0724-B5D8-4565-B28B-1636AF69A006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFCC0724-B5D8-4565-B28B-1636AF69A006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFCC0724-B5D8-4565-B28B-1636AF69A006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFCC0724-B5D8-4565-B28B-1636AF69A006}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,5 +44,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{CBAFBE23-165C-4BDF-B2C3-3AF33FA90F15} = {9AEEF7DB-BC4E-4704-92A3-F00A7C357D83}
 		{5086614C-6ECA-4033-AFE3-1797948753E2} = {CBAFBE23-165C-4BDF-B2C3-3AF33FA90F15}
+		{AFCC0724-B5D8-4565-B28B-1636AF69A006} = {CBAFBE23-165C-4BDF-B2C3-3AF33FA90F15}
 	EndGlobalSection
 EndGlobal
