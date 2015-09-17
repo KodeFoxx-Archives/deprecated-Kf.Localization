@@ -1,5 +1,6 @@
 # Kf.Localization
 Basic .Net library for supporting resource based localization.
+
 [![Build status](https://ci.appveyor.com/api/projects/status/3lufqt76aag7xok3?svg=true)](https://ci.appveyor.com/project/aredfox/kf-localization)
 
 ## Download ##
